@@ -1,0 +1,41 @@
+.unsortedList > li:nth-child(3),
+.unsortedList > li:nth-child(4) {
+    color: red;
+}
+
+.sortedList > li:nth-child(2),
+.sortedList > li:nth-child(4) {
+    font-size: 24px;
+}
+
+.infobox {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  flex: 1 0 100px;
+}
+
+p:first-of-type {
+  font-style: italic;
+}
+
+#special > p:nth-child(2),
+#special > p:nth-child(3) {
+    color: rgb(233, 233, 219);
+}
+
+button {
+    border-radius: 15px;
+    width: 100px;
+    height: 50px;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+button:active {
+    border-radius: 0px;
+    width: 200px;
+    height: 150px;
+}
